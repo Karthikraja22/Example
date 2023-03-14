@@ -49,6 +49,7 @@
 }
 .position{
     position: relative;
+    z-index: 1;
 
 }
 .childposition{
@@ -58,7 +59,16 @@
     left: 0%;
     text-align: center;
     font-weight: 700;
+    z-index:3;
 
 
 
+}
+.filter
+{
+    position:absolute ;
+    width: 300px;
+    height: 200px;
+    top: 0;
+    background-color: grey;
 }
